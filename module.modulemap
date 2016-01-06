@@ -1,0 +1,8 @@
+framework module PrivateHeadersOutsideModule {
+  umbrella header "PrivateHeadersOutsideModule.h"
+
+  export *
+  module * { export * }
+
+  private header "YOLO.h"
+}
